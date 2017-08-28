@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Decide-Bot</title>
+	<meta name="Leo Calogero" content="Decide-Bot Api Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="robo_1.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<div class="wrapper">
+			<div id="nav__box">
+				<div class="nav__home">
+                    <a href="#"><img src="images/decidebotlogo.svg" alt="Decide-Bot's logo, simply the word Decide-Bot and a small robot above the word Bot."></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<div class="wrapper">
+			<div class="header__box">
+				<div class="loryssa">
+					<img class="loryssa" src="images/loryssa.png" alt="An image of female cartoon.">
+					<div class="talk-bubble-1">
+					  <div class="talktext1">
+					    <h1>Hey, where do you wanna eat?</h1>
+					  </div>
+					</div>
+				</div>
+				<div class="leo">
+					<div class="talk-bubble-2">
+					  <div class="talktext2">
+					    <h2>I dunno. Wherever you want I'm hangry...</h2>
+					  </div>
+					</div>
+					<img class="leo" src="images/leo.png" alt="An image of a male cartoon.">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="hangry">
+		<div class="wrapper">
+			<div class="why__hangry">
+				<div class="why__hangry__title">
+					<h2>Hangry?</h2>
+                    <p>Not familiar with the term? Hangriness is real, infact it was recently added to the Online Oxford Dictionary and its use is growing in popularity. Just as it sounds, "hangry" derived from two human states:</p>
+				</div>
+				<div class="why__hangry__definition">
+					<div class="why__hangry__definition__hungry">
+						<h3>hun·gry</h3>
+						<h4>/ˈhəNGɡrē/</h4>
+						<h5>adjective</h5>
+						<h6><em>synonyms:</em> ravenous, empty, in need of food, hollow, faint from/with hunger;</h6>
+						<p>feeling or displaying the need for food.</p>
+					</div>
+					<div class="why__hangry__definition__angry">
+						<h3>an·gry</h3>
+						<h4>/ˈaNGɡrē/</h4>
+						<h5><em>adjective</em></h5>
+                        <h6><em>angry; comparative adjective:</em> angrier; <em>superlative adjective:</em> angriest</h6>
+						<p>having a strong feeling of or showing annoyance, displeasure, or hostility; full of anger.</p>
+					</div>
+					<div class="why__hangry__definition__hangry">
+						<h3>han·gry</h3>
+						<h4>/ˈhaNGɡrē/</h4>
+						<h5><em>adjective informal</em></h5>
+                        <h6><em>adjective:</em> hangry; comparative <em>adjective:</em> hangrier; superlative <em>adjective:</em> hangriest</h6>
+						<p>An amalgum of hungry and angry invented to describe when you are so hungry that your lack of food causes you to become angry, frustrated or both.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <div class="decideBot">
+        <section id="city__user">
+            <div class="wrapper">
+                <div class="city__user__title">
+                    <h2>Ready to combat Hangriness?</h2>
+                    <p>Pick a city, any city! Decide-Bot would be happy to recommend a trending place for you!</p>
+				</div>
+                <div class="location__page">
+                    <div class="aside">
+                        <img class="robo1" src="images/robo_1.png" alt="An image of Decide-Bot, a friendly colourful robot.">
+                    </div>
+                    <div class="talk-bubble-3">
+                        <div class="submit__text">
+                            <div class="input">   
+                                <input type="text" placeholder="What city are you in?" id="userLocation">
+                            </div>
+                            <div class="button">
+                                <button id="locationBtn">Set Location
+                                </button>
+                            </div>
+                            <div class="locationChoice">
+                                <span id="location"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="city__choice">
+            <div class="wrapper">
+                <div class="restaurant__page">
+                    <div class="talk-bubble-4">
+                        <div class="talk-text-4">
+                            <p>Why don't you try <span id="restaurantName"></span></p>
+                            <p>They have some great <span id="type"></span> cuisine I think?</p>
+                            <p>On average it will probably run you about $<span id="costForTwo"></span></p>
+                            <p>Seems pretty good, they got a rating of <span id="userRating"></span></p>
+                        </div>
+                    </div>
+                    <div class="aside">
+                        <img class="robo2" src="images/robo_1.png" alt="An image of Decide-Bot, a friendly colourful robot.">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+	<section id="about">
+		<div class="wrapper">
+            <div class="why__about">
+                <div class="why__box">
+                    <h2>Why?</h2>
+                    <p>Why you ask? Decide-Bot&trade; will happily recommend a moderately priced trending restaurant in the city of your choice! Simply set your location and Decide-Bot&trade; will make a stress-free decision for you. He may be a robot, but he's powered by the interweb!</p>
+                </div>
+                <div class="about__box">
+                    <h2>About</h2>
+                    <p>The Decide-Bot&trade; was born after a very hangry day. His creator <em><a href="http://leocalogero.codes">Leo Calogero</a></em> created him to stop the madness once and for all. Hangryiness is no joke, it is often noted as the lead cause of relationship arguments. Never fall for the, "I don't know anywhere" trap again and use Decide-bot now! </p>
+                </div>
+                <div class="about__box">
+                    <h2>I can't choose again?</h2>
+                    <p>Yeah thats right, Decide-Bot's&trade; decision is final. Got a problem with that? Well too bad, maybe you should of thought of that before. Better yet, save some money and cook something. Why would you trust a robot anyway he doesn't even eat!</p>
+                </div>
+            </div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+            <p>Powered by:</p>
+			<p><img src="images/zomato.svg" alt="An image of Zomato's logo, this web application is powered by the Zomato Api."></p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
